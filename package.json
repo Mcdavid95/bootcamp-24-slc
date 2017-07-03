@@ -1,0 +1,26 @@
+{
+  "name": "bootcamp-24-slc",
+  "version": "1.0.0",
+  "description": "andela boot-camp-24 self learning outcomes",
+  "main": "index.js",
+  "directories": {
+    "test": "./tests/getPrimes.specs.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mcdavid95/bootcamp-24-slc.git"
+  },
+  "keywords": [
+    "prime",
+    "numbers"
+  ],
+  "author": "Mcdavid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mcdavid95/bootcamp-24-slc/issues"
+  },
+  "homepage": "https://github.com/Mcdavid95/bootcamp-24-slc#readme"
+}
