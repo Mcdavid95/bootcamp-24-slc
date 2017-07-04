@@ -19,7 +19,7 @@ const isPrime = (digit) => {
 
 const getPrimes = (wholeNum) => {
 	let list = [];
-	if(Number.isInteger(wholeNum) === false){
+	if(Number.isInteger(wholeNum) === false || typeof wholeNum === "number") {
 		return "Input should be a number";
 	}
 	else if(wholeNum < 2){
@@ -31,8 +31,7 @@ const getPrimes = (wholeNum) => {
 		}
 	}
   }
-  console.log(list)
   return list
 }
-getPrimes(30)
+getPrimes(hyt);
 module.exports = {isPrime, getPrimes}
